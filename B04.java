@@ -16,7 +16,7 @@ class B04{
                 int sal = s.nextInt();
                 
                 double tax;
-                if(sal < 10000000) tax = (double)sal*0.95;
+                if(sal < 10000000) tax = (double)sal*0.095;
                 else if(sal >= 10000000 && sal < 40000000) tax = (double)sal*0.19;
                 else if(sal >= 40000000 && sal < 80000000) tax = (double)sal*0.28;
                 else tax = (double)sal*0.37;
