@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Days {
+public class B03 {
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
@@ -16,40 +16,40 @@ public class Days {
         {
         switch (i) {
             case 1:
-                sum += 0;
+                sum += 31;
                 break;
             case 2:
-                sum += 31;
-                break;
-            case 3:
                 sum += 28;
                 break;
-            case 4:
+            case 3:
                 sum += 31;
+                break;
+            case 4:
+                sum += 30;
                 break;
             case 5:
-                sum += 30;
-                break;
-            case 6:
                 sum += 31;
                 break;
-            case 7:
+            case 6:
                 sum += 30;
+                break;
+            case 7:
+                sum += 31;
                 break;
             case 8:
                 sum += 31;
                 break;
             case 9:
-                sum += 31;
+                sum += 30;
                 break;
             case 10:
-                sum += 30;
-                break;
-            case 11:
                 sum += 31;
                 break;
-            case 12:
+            case 11:
                 sum += 30;
+                break;
+            case 12:
+                sum += 31;
                 break;
             default :
                 System.out.print("잘못입력하셨습니다.");
